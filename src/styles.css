@@ -1,0 +1,44 @@
+body {
+  background-color: #fffbeb;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 960px;
+  background-color: rgb(82, 76, 55);
+  margin: auto;
+  height: 94vh;
+  padding-bottom: 1rem;
+}
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 1.5rem;
+}
+
+.genre {
+  border: 1px solid black;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  background-color: #fffbeb;
+  color: rgb(82, 76, 55);
+  cursor: pointer;
+}
+.places {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.list-content {
+  border: 1px solid #fffbeb;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fffbeb;
+}
+.active {
+  font-weight: bold;
+  border: 2px solid #fffbeb;
+}
